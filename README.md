@@ -8,6 +8,12 @@ Code snippet in JS (Node) to automatically insert Dolce Gusto bonus codes on the
 
 It is necessary for the user to have Node.js installed on their machine to proceed with the following instructions.
 
+
+```
+npm install
+```
+or
+
 ```
 npm i puppeteer-extra puppeteer-extra-plugin-stealth
 ```
