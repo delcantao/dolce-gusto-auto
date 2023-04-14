@@ -1,8 +1,8 @@
 const fs = require('fs');
 const puppeteer = require('puppeteer-extra')
 const StealthPlugin = require('puppeteer-extra-plugin-stealth')
-const executablePath = "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe";
-const filePath = 'D:\\repos\\CODIGOS_dolce_gusto';
+const executablePath =  "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe";
+const filePath = 'D:\\repos\\codes_dolce_gusto.txt';
 const userDolceGusto = process.env.USER_DOLCE_GUSTO
 const passDolceGusto = process.env.PASS_DOLCE_GUSTO
 const lines = fs.readFileSync(filePath, 'utf8', (err, data) => {
